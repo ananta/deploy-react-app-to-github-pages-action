@@ -1,0 +1,26 @@
+{
+  "name": "deploy-react-app-to-github-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananta/deploy-react-app-to-github-pages-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananta/deploy-react-app-to-github-pages-action/issues"
+  },
+  "homepage": "https://github.com/ananta/deploy-react-app-to-github-pages-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/exec": "^1.0.3",
+    "@actions/github": "^2.1.1",
+    "@actions/io": "^1.0.2"
+  }
+}

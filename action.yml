@@ -1,0 +1,20 @@
+name: "React To Github Pages"
+description: "Build and deploy your React app to GitHub Pages."
+branding:
+  icon: "book-close"
+  color: "blue"
+inputs:
+  access-token:
+    description: "Your personal access token."
+    required: true
+  deploy-branch:
+    description: "Deploy Branch"
+    required: false
+    default: "master"
+  deploy-repo:
+    description: "Deploy Repo"
+    required: false
+    default: ""
+runs:
+  using: "node12"
+  main: "index.js"
